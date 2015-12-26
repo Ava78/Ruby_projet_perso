@@ -1,4 +1,4 @@
-== README
+== Ici le Readme de l'Application
 
 Voici une application Ruby on rails développée dans le cadre d'un test pour les pré-requis au titre prof préparé au sein de la Wild Code School.
 -----------------------------------------------
