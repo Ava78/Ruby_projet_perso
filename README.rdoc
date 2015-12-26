@@ -29,7 +29,7 @@ Voici une application Ruby on rails développée dans le cadre d'un test pour le
    (123.0ms)  commit transaction
    => true
 ----------------------------------------
-    Après avoir créer tous les cours en console, nous pouvons vérifier que tous les cours sont bien existants : 
+* Après avoir créer tous les cours en console, nous pouvons vérifier que tous les cours sont bien existants : 
 
     2.2.3 :025 > Course.all
     Course Load (0.4ms)  SELECT "courses".* FROM "courses"
