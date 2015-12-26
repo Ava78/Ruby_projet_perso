@@ -1,17 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+Voici une application Ruby on rails développée dans le cadre d'un test pour les pré-requis au titre prof préparé au sein de la Wild Code School.
 
 * Ruby version
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
+Rails 4.2.5
 
-* System dependencies
-
-* Configuration
-
-* Database creation
+* Pour Lire et Gérer une Base de Données
+   Nous avons utiliser SQlite Browser.
+   télécharger sur ubuntu SqliteBrowser avec 
+   sudo apt-get install sqlitebrowser
 
 * Database initialization
 
