@@ -1,20 +1,20 @@
 == README
 
 Voici une application Ruby on rails développée dans le cadre d'un test pour les pré-requis au titre prof préparé au sein de la Wild Code School.
-
+-----------------------------------------------
 * Ruby version
   Ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
   Rails 4.2.5
 
-* Penser à Bundle Install et rake db:migrate
-
+  Penser à Bundle Install et rake db:migrate
+------------------------------------------------
 * Pour Lire et Gérer une Base de Données
    Nous avons utiliser SQlite Browser.
    télécharger sur ubuntu SqliteBrowser avec 
    sudo apt-get install sqlitebrowser
-
-   Nous avons aussi ajouter un SLUG afin de rendre l'url plus sympathique.
-
+-----------------------------------------------------
+* Nous avons aussi ajouter un SLUG dans la table Cours afin de rendre l'url plus sympathique.
+-------------------------------------------------------
 * Comment créer des objets "COURS" dans ma base de données : 
   en utilisant rails console - qui charge toutes les informations du projet : 
   On met le cours dans une variable "c". On pense à y mettre un titre, une description et un SLUG.
