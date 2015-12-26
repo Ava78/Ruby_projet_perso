@@ -6,6 +6,14 @@ gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
+
+# Gem pour Administration du Site
+gem 'administrate', '~> 0.1.2'
+
+
+
+
+
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

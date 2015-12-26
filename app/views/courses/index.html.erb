@@ -1,0 +1,13 @@
+<h1>Ici l'ensemble des Cours Proposés</h1>
+<h2>Vous trouverez l'ensemble des cours de mon blog</h2>
+
+<% for course in @courses %>
+  <article>
+  	<h3><%= course.title%> </h3>
+    <p><%= course.description%></p>
+  </article>
+
+  <hr>
+  <!--Pour séparer avec une ligne les cours entre eux -->
+
+<% end %>

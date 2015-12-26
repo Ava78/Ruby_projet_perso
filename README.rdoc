@@ -6,7 +6,10 @@ https://www.youtube.com/watch?v=pGYIOqq_OXc&list=PLlxQJeQRaKDTgm7bftT6L3MhwTniKZ
 -----------------------------------------------
 * Ruby version
   Ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
+  
   + Rails 4.2.5
+  
+  Nous avons utiliser la Gem administrate pour une administration simple du site web
 
   Penser à Bundle Install et rake db:migrate
 ------------------------------------------------
