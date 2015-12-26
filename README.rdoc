@@ -44,7 +44,8 @@ Voici une application Ruby on rails développée dans le cadre d'un test pour le
 
 * Création du Controller Courses et dans le fichier de sa vue : 
  <%= @courses.inspect %> afin de montrer l'ensemble des cours comme enregistrés dans la base de données.
- -------------------------
+ ---------------------------------
+ 
  * ITERATION : 
  <% for course in @courses %>
   <article>
