@@ -28,6 +28,19 @@ Voici une application Ruby on rails développée dans le cadre d'un test pour le
    SQL (0.4ms)  INSERT INTO "courses" ("title", "description", "slug", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Apprendre Git et GitHub"], ["description", "Apprendre à utiliser les commandes principales de Git et apprendre à utiliser GitHub. Egalement ce cours permet de se perfectionner à l'utilisation du workflow à utliser lors d'un travail d'équipe."], ["slug", "Git-Github"], ["created_at", "2015-12-26 18:10:06.191126"], ["updated_at", "2015-12-26 18:10:06.191126"]]
    (123.0ms)  commit transaction
    => true
+----------------------------------------
+    Après avoir créer tous les cours en console, nous pouvons vérifier que tous les cours sont bien existants : 
+
+    2.2.3 :025 > Course.all
+    Course Load (0.4ms)  SELECT "courses".* FROM "courses"
+    => #<ActiveRecord::Relation [#<Course id: 1, title: "Apprendre HTML et CSS", description: "Ici toutes mes notes concernant mes premiers cours...", created_at: "2015-12-26 18:06:27", updated_at: "2015-12-26 18:06:27", slug: "apprendre-html-css">, #<Course id: 2, title: "Apprendre Git et GitHub", description: "Apprendre à utiliser les commandes principales de ...", created_at: "2015-12-26 18:10:06", updated_at: "2015-12-26 18:10:06", slug: "Git-Github">, #<Course id: 3, title: "UX - Expérience utilisateur", description: "Quelques notions - initiation à l'UX", created_at: "2015-12-26 18:15:49", updated_at: "2015-12-26 18:15:49", slug: "UX">, #<Course id: 4, title: "Ruby On Rails", description: "Apprendre Ruby et son Framework Rails grâce aux co...", created_at: "2015-12-26 18:17:11", updated_at: "2015-12-26 18:17:11", slug: "Ruby-On-Rails">]> 
+
+-----------------------------------------------
+
+
+
+
+
 
 
 * How to run the test suite
