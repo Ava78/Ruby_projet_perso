@@ -11,10 +11,9 @@ https://www.youtube.com/watch?v=pGYIOqq_OXc&list=PLlxQJeQRaKDTgm7bftT6L3MhwTniKZ
   
   Nous avons utiliser la Gem administrate pour une administration simple du site web
 
-* Comment créer un nvel admin : cf 
-https://administrate-docs.herokuapp.com/getting_started
+* Comment créer un nvel admin : cf https://administrate-docs.herokuapp.com/getting_started
 
-  une fois installée, si vous allez sur http://localhost:3000/admin   vous verrez la nouvelle page d'administration
+ * Une fois installée, si vous allez sur http://localhost:3000/admin   vous verrez la nouvelle page d'administration
 -------------------------------------------
 
   Penser à Bundle Install et rake db:migrate
