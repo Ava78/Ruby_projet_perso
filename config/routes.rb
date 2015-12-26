@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   get 'index' => 'pages#index'
   get 'about' => 'pages#about'
 
+  #pour afin la page de l'ensemble des cours
+  get 'cours' => 'courses#index'
 
 end

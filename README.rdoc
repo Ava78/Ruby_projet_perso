@@ -4,7 +4,7 @@ Voici une application Ruby on rails développée dans le cadre d'un test pour le
 -----------------------------------------------
 * Ruby version
   Ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
-  Rails 4.2.5
+  + Rails 4.2.5
 
   Penser à Bundle Install et rake db:migrate
 ------------------------------------------------
