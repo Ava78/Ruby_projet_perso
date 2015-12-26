@@ -1,6 +1,8 @@
 == Ici le Readme de l'Application
 
 Voici une application Ruby on rails développée dans le cadre d'un test pour les pré-requis au titre prof préparé au sein de la Wild Code School.
+Accompagnée des notions de Open Class Room + Teacher du Net
+https://www.youtube.com/watch?v=pGYIOqq_OXc&list=PLlxQJeQRaKDTgm7bftT6L3MhwTniKZB-t
 -----------------------------------------------
 * Ruby version
   Ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
