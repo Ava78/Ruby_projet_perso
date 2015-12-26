@@ -15,7 +15,18 @@ Rails 4.2.5
 
    Nous avons aussi ajouter un SLUG afin de rendre l'url plus sympathique.
 
-* Database initialization
+* Comment créer des objets "COURS" dans ma base de données : 
+  en utilisant rails console - qui charge toutes les informations du projet : 
+  On met le cours dans une variable "c". On pense à y mettre un titre, une description et un SLUG.
+
+  "2.2.3 :015 > c = Course.new(title: "Apprendre Git et GitHub", description: "Apprendre à utiliser les commandes principales de Git et apprendre à utiliser GitHub. Egalement ce cours permet de se perfectionner à l'utilisation du workflow à utliser lors d'un travail d'équipe.", slug: "Git-Github")
+ => #<Course id: nil, title: "Apprendre Git et GitHub", description: "Apprendre à utiliser les commandes principales de ...", created_at: nil, updated_at: nil, slug: "Git-Github"> 
+2.2.3 :016 > c.save
+   (0.2ms)  begin transaction
+  SQL (0.4ms)  INSERT INTO "courses" ("title", "description", "slug", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Apprendre Git et GitHub"], ["description", "Apprendre à utiliser les commandes principales de Git et apprendre à utiliser GitHub. Egalement ce cours permet de se perfectionner à l'utilisation du workflow à utliser lors d'un travail d'équipe."], ["slug", "Git-Github"], ["created_at", "2015-12-26 18:10:06.191126"], ["updated_at", "2015-12-26 18:10:06.191126"]]
+   (123.0ms)  commit transaction
+ => true "
+
 
 * How to run the test suite
 
